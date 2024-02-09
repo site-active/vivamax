@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+a{
+    text-decoration: none;
+    color: #555;
+}
+p{
+    color: #555;
+}
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.pewpew-2{
+    flex-basis: 35%;
+    min-width: 200px;
+}
+.pewpew-2 img{
+    max-width: 100%;
+    padding: 50px 0 ;
+}
+.pewpew-2 h1{
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0;
+}
+.btn{
+    display: inline-block;
+    background: #ff523b;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: background 0.5s;
+}
+.btn:hover{
+    background: #563434;
+}
+.header{
+    background: radial-gradient(#fff,#ffd6d6);
+}
+.header .row{
+    margin-top: 50px;
+}
+.categories{
+    margin: 70px 0;
+}
+.pewpew-3{
+    flex-basis: 30%;
+    min-width: 250px;
+    margin-bottom: 30px;
+}
+.pewpew-3 img{
+     width: 100%;
+}
+.small-container{
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.pewpew-4{
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+    transition: transform 0.5s;
+}
+.pewpew-4 img{
+    width: 100%;
+}
+.title{
+    text-align: center;
+    margin: 0 auto 80px;
+    position: relative;
+    line-height: 60px;
+    color: #555;
+}
+.title::after{
+    content: '';
+    background: #ff523b;
+    width: 80px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.pewpew-4:hover{
+    transform: translate(-5px);
+}
+
+.offer{
+    background: radial-gradient(#fff,#ffd6d6);
+    margin-top: 80px;
+    padding: 30px 0;
+    
+}
+.pewpew-4 .offer-img{
+    padding: 1px;
+    max-width: 110%;
+    
+}
+.testimonial{
+    padding-top: 20px;
+}
+.testimonial .pewpew-4{
+    text-align: center;
+    padding: 40px 20px;
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+.testimonial .pewpew-4 img{
+      width: 90px;
+      margin-top: 20px;
+      border-radius: 50%;
+}
+.testimonial .pewpew-4:hover{
+    transform: translateY(-10px);
+}
+.pewpew-4 p{
+    font-size: 12px;
+    margin: 12px 0;
+    color: #777;
+
+}
+.testimonial .pewpew-4 h3{
+        font-weight: 600;
+        color: #555;
+        font-size: 16px;
+}
+.brands{
+    margin: 100px auto;
+}
+.pewpew-5{
+    width: 160px;
+}
+.pewpew-5 img{
+    width: 100%;
+    cursor: pointer;
+    filter: grayscale(100%);
+}
+.pewpew-5 img:hover{
+    filter: grayscale(0);
+}
+
+.ubos{
+    background: #000;
+    color: #8a8a8a;
+    font-size: 14px;
+    padding: 60px 0 20px;
+}
+.design-2 img{
+    width: 180px;
+}
+.ubos p{
+    color: #8a8a8a;
+}
+.ubos h3{
+    color: #fff;
+    margin-bottom: 20px;
+}
+.design-1, .design-2, .design-3, .design-4,{
+    min-width: 250px;
+    margin-bottom: 20px;
+}
+.design-1{
+    flex-basis: 30%;
+}
+.design-2{
+    flex: 20;
+    text-align: center;
+}
+.design-2 img{
+    width: 180px;
+    margin-bottom: 20px;
+}
+.design-3, .design-4{
+    flex-basis: 15% ;
+    text-align: center;
+    
+}
+ul{
+    list-style-type: none;
+}
+.app-logo{
+    margin-top: 20px;
+}
+.app-logo img{
+    width: 140px;
+}
+
